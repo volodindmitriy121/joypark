@@ -19,17 +19,17 @@ if (empty($_POST["email"])) {
     $email = $_POST["email"];
 }
 
-if (empty($_POST["select"])) {
-    $errorMSG = "Select is required ";
-} else {
-    $select = $_POST["select"];
-}
+// if (empty($_POST["select"])) {
+//     $errorMSG = "Select is required ";
+// } else {
+//     $select = $_POST["select"];
+// }
 
-if (empty($_POST["terms"])) {
-    $errorMSG = "Terms is required ";
-} else {
-    $terms = $_POST["terms"];
-}
+// if (empty($_POST["terms"])) {
+//     $errorMSG = "Terms is required ";
+// } else {
+//     $terms = $_POST["terms"];
+// }
 
 $EmailTo = "joypark@joypark.com.ua";
 $Subject = "Новый запрос от Joypark страницы";
@@ -45,12 +45,12 @@ $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $email;
 $Body .= "\n";
-$Body .= "Package: ";
-$Body .= $select;
-$Body .= "\n";
-$Body .= "Terms: ";
-$Body .= $terms;
-$Body .= "\n";
+// $Body .= "Package: ";
+// $Body .= $select;
+// $Body .= "\n";
+// $Body .= "Terms: ";
+// $Body .= $terms;
+// $Body .= "\n";
 
 // send email
 $success = mail($EmailTo, $Subject, $Body, "From:".$email);
