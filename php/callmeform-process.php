@@ -13,11 +13,11 @@ if (empty($_POST["phone"])) {
     $phone = $_POST["phone"];
 }
 
-if (empty($_POST["email"])) {
-    $errorMSG = "Email is required ";
-} else {
-    $email = $_POST["email"];
-}
+// if (empty($_POST["email"])) {
+//     $errorMSG = "Email is required ";
+// } else {
+//     $email = $_POST["email"];
+// }
 
 // if (empty($_POST["select"])) {
 //     $errorMSG = "Select is required ";
@@ -53,7 +53,7 @@ $Body .= "\n";
 // $Body .= "\n";
 
 // send email
-$success = mail($EmailTo, $Subject, $Body, "From:".$email);
+$success = mail($EmailTo, $Subject, $Body, "From:".$EmailTo);
 // redirect to success page
 if ($success && $errorMSG == ""){
    echo "success";
