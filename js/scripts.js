@@ -88,6 +88,31 @@
         }
     });
 
+    var gallerySlider = new Swiper('.gallery-slider', {
+        loop: true,
+        navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev'
+        },
+        
+        calculateHeight: true,
+		slidesPerView: 3,
+        spaceBetween: 20,
+        onImagesReady: function (swiper) {
+            resizeSwiper();
+            swiper.onResize();
+        },
+        breakpoints: {
+            // when window is <= 992px
+            992: {
+                slidesPerView: 2
+            },
+            // when window is <= 768px
+            768: {
+                slidesPerView: 1
+            } 
+        }
+    });
     
     /* Lightbox - Magnific Popup */
 	$('.popup-with-move-anim').magnificPopup({
