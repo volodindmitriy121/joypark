@@ -1244,11 +1244,23 @@ input[type="checkbox"] {
   background-size: cover;
 }
 
+#offers {
+  background: linear-gradient(rgba(132, 255, 105, 1), rgba(105, 205, 255, 1)),
+    center no-repeat;
+  padding-top: 2rem;
+  background-color: #fbfbfb;
+}
+#projects {
+  background: linear-gradient(rgba(132, 255, 105, 1), rgba(105, 205, 255, 1)),
+    center no-repeat;
+  padding-top: 2rem;
+  background-color: #fbfbfb;
+}
 /****************************/
 /*     10. Testimonials     */
 /****************************/
 .slider {
-  background: linear-gradient(rgba(132, 255, 105, 1), rgba(105, 205, 255, 1)),
+  background: linear-gradient(rgba(105, 205, 255, 1), rgba(132, 255, 105, 1)),
     center no-repeat;
   padding-top: 2rem;
   background-color: #fbfbfb;
@@ -1729,7 +1741,7 @@ input[type="checkbox"] {
 /*     16. Contact     */
 /***********************/
 .form-2 {
-  background: linear-gradient(rgba(132, 255, 105, 1), rgba(105, 205, 255, 1)),
+  background: linear-gradient(rgba(105, 205, 255, 1), rgba(132, 255, 105, 1)),
     center no-repeat;
 
   padding-top: 6.625rem;
