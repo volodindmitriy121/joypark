@@ -89,7 +89,7 @@
     });
 
     var gallerySlider = new Swiper('.gallery-slider', {
-        loop: true,
+        // loop: true,
         navigation: {
 			nextEl: '.swiper-button-next',
 			prevEl: '.swiper-button-prev'
@@ -113,20 +113,18 @@
             } 
         }
     });
-    
-    /* Lightbox - Magnific Popup */
-	$('.popup-with-move-anim').magnificPopup({
-		type: 'inline',
-		fixedContentPos: false, /* keep it false to avoid html tag shift with margin-right: 17px */
-		fixedBgPos: true,
-		overflowY: 'auto',
-		closeBtnInside: true,
-		preloader: false,
-		midClick: true,
-		removalDelay: 300,
-		mainClass: 'my-mfp-slide-bottom'
-    });
-    
+
+    $('.gallery-item').magnificPopup({
+        
+        type: 'image',
+        image:{
+            verticalFit: true
+        },
+        gallery:{
+          enabled:true,
+          preload: [0,2]
+        }
+      });
 
     /* Filter - Isotope */
     var $grid = $('.grid').isotope({
