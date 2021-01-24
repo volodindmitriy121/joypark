@@ -12,10 +12,20 @@
   display: flex;
 }
 
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    align-items: flex-start;
+  }
+}
+
 .contact-us {
   display: flex;
-  width: 100%;
-  justify-content: flex-end;
+  flex-grow: 1;
   align-items: center;
 }
 
@@ -32,9 +42,6 @@
 .collapse.navbar-collapse .nav-item.social-icons {
   display: flex;
   align-items: center;
-  max-width: 350px;
-  justify-content: space-between;
-  width: 100%;
 }
 
 .card__text {
