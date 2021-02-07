@@ -124,10 +124,25 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
       <!-- Text Logo - Use this if you don't have a graphic logo -->
-      <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
+      <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Joy Park</a> -->
 
       <!-- Image Logo -->
-      <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> -->
+      <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/joypark-logo.png" alt="alternative"></a> -->
+
+      <div class="contact-us">
+        <button class="form-control-submit-button cd-popup-trigger" style="max-width:fit-content;">
+          Связаться
+        </button>
+        <span style="padding-left: 1.25rem;">
+          <i class="fas fa-phone" style="color: white;"></i>
+          <a
+            class="header__phone"
+            style="color: white"
+            href="tel:380995429600"
+          >+38 099 542 96 00</a>
+        </span>
+
+      </div>
 
       <!-- Mobile Menu Toggle Button -->
       <button
@@ -145,20 +160,23 @@
       <!-- end of mobile menu toggle button -->
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <div class="contact-us">
+        <!-- <div class="nav-item logo-image">
+          <img src="images/joypark-logo.png">
+        </div> -->
+        <!-- <div class="contact-us">
           <span
             ><i class="fas fa-phone" style="color: white"></i
             ><a
               class="header__phone"
               style="color: white"
-              href="tel:003024630820"
+              href="tel:380995429600"
               >+38 099 542 96 00</a
             ></span
           >
           <button class="form-control-submit-button cd-popup-trigger">
             Связаться
           </button>
-        </div>
+        </div> -->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link page-scroll" href="#header"
@@ -166,10 +184,13 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link page-scroll" href="#intro">Информация</a>
+            <a class="nav-link page-scroll" href="#intro">О центре</a>
           </li>
           <li class="nav-item">
             <a class="nav-link page-scroll" href="#services">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#prices">Цены</a>
           </li>
           <li class="nav-item">
             <a class="nav-link page-scroll" href="#offers">Акции</a>
@@ -451,6 +472,67 @@
     <!-- end of cards-2 -->
     <!-- end of services -->
 
+    <div id="prices" class="slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Цены</h2>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="slider-container ">
+              <div class="swiper-container gallery-slider price-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a class="popup-with-move-anim element price-item" href="images/price1.jpg">
+                      <div class="element-item-overlay"></div>
+                      <img 
+                        src="images/price1.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a class="popup-with-move-anim element price-item" href="images/price2.jpg">
+                      <div class="element-item-overlay"></div>
+                      <img
+                        src="images/price2.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a class="popup-with-move-anim element price-item" href="images/price3.jpg">
+                      <div class="element-item-overlay"></div>
+                      <img
+                        src="images/price3.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <!-- end of grid -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+              <!-- end of swiper-container -->
+            </div>
+            <!-- end of sliedr-container -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+
+
     <!-- Intro -->
     <div id="intro" class="basic-11">
       <div class="container">
@@ -499,13 +581,23 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="slider-container">
-              <div class="swiper-container gallery-slider gallery-container">
+              <div class="swiper-container gallery-slider offer-container">
                 <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a class="popup-with-move-anim element offer-item" href="images/offer4.jpg">
+                      <div class="element-item-overlay"></div>
+                      <img
+                        
+                        src="images/offer4.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
                   <div class="swiper-slide">
                     <a class="popup-with-move-anim element offer-item" href="images/offer1.jpg">
                       <div class="element-item-overlay"></div>
                       <img
-                        class="img-fluid"
                         src="images/offer1.jpg"
                         loading="lazy"
                         alt="alternative"
@@ -516,7 +608,6 @@
                     <a class="popup-with-move-anim element offer-item" href="images/offer3.jpg">
                       <div class="element-item-overlay"></div>
                       <img
-                        class="img-fluid"
                         src="images/offer3.jpg"
                         loading="lazy"
                         alt="alternative"
@@ -760,12 +851,12 @@
                   <div class="swiper-slide">
                     <a
                       class="popup-with-move-anim element gallery-item"
-                      href="images/project-22-min.jpg"
+                      href="images/gal1.jpg"
                     >
                       <div class="element-item-overlay"></div>
                       <img
                         class="img-fluid"
-                        src="images/project-22-min.jpg"
+                        src="images/gal1.jpg"
                         loading="lazy"
                         alt="alternative"
                       />
@@ -850,6 +941,258 @@
                       <img
                         class="img-fluid"
                         src="images/project-88.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal2.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal2.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal3.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal3.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal4.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal4.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal5.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal5.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal6.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal6.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal7.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal7.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal8.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal8.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal9.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal9.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal10.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal10.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal11.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal11.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal12.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal12.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal13.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal13.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal14.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal14.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal15.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal15.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal16.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal17.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal18.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal18.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal19.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal19.jpg"
+                        loading="lazy"
+                        alt="alternative"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="popup-with-move-anim element gallery-item"
+                      href="images/gal20.jpg"
+                    >
+                      <div class="element-item-overlay"></div>
+                      <img
+                        class="img-fluid"
+                        src="images/gal20.jpg"
                         loading="lazy"
                         alt="alternative"
                       />

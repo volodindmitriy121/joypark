@@ -976,7 +976,7 @@ input[type="checkbox"] {
   background: linear-gradient(rgba(132, 255, 105, 1), rgba(105, 205, 255, 1)),
     center no-repeat;
   /* padding-top: 6.625rem;	 */
-  padding-bottom: 1.25rem;
+  /* padding-bottom: 1.25rem; */
   background-color: #fbfbfb;
 }
 
@@ -1257,6 +1257,13 @@ input[type="checkbox"] {
   padding-top: 2rem;
   background-color: #fbfbfb;
 }
+#prices {
+  background: linear-gradient(rgba(132, 255, 105, 1), rgba(105, 205, 255, 1)),
+    center no-repeat;
+  background-color: #fbfbfb;
+  padding-bottom: 4rem;
+}
+
 #projects {
   background: linear-gradient(rgba(132, 255, 105, 1), rgba(105, 205, 255, 1)),
     center no-repeat;
@@ -1297,6 +1304,24 @@ input[type="checkbox"] {
   /* height: 25rem; */
   height: auto;
   max-height: 20rem;
+}
+
+.price-container .swiper-slide {
+  /* height: 25rem; */
+  height: auto;
+  max-height: 27rem;
+}
+
+.price-container .swiper-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+
+.offer-container .swiper-slide img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block; /* remove extra space below image */
 }
 
 .slider .swiper-button-prev:focus,
@@ -2223,6 +2248,7 @@ a:hover.back-to-top {
   /* Services */
   .cards-2 .card {
     max-width: 18.25rem;
+    /* height: 14rem; */
     display: inline-block;
     vertical-align: top;
   }

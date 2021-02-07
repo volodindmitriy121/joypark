@@ -137,6 +137,17 @@
         }
       });
 
+      $('.price-item').magnificPopup({
+        type: 'image',
+        image:{
+            verticalFit: true
+        },
+        gallery:{
+          enabled:true,
+          preload: [0,2]
+        }
+      });
+
     /* Filter - Isotope */
     var $grid = $('.grid').isotope({
         // options
