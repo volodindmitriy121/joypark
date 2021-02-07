@@ -877,7 +877,7 @@ input[type="checkbox"] {
 }
 
 .basic-11 {
-  background: linear-gradient(rgba(105, 205, 255, 1), rgba(132, 255, 105, 1)),
+  background: linear-gradient(rgba(132, 255, 105, 1), rgba(105, 205, 255, 1) ),
     center no-repeat;
   /* padding-top: 6.5rem;
 	padding-bottom: 3rem; */
@@ -1271,20 +1271,20 @@ input[type="checkbox"] {
 }
 
 #offers {
-  background: linear-gradient(rgba(132, 255, 105, 1), rgba(105, 205, 255, 1)),
+  background: linear-gradient(rgba(105, 205, 255, 1), rgba(132, 255, 105, 1) ),
     center no-repeat;
   padding-top: 2rem;
   background-color: #fbfbfb;
 }
 #prices {
-  background: linear-gradient(rgba(132, 255, 105, 1), rgba(105, 205, 255, 1)),
+  background: linear-gradient(rgba(105, 205, 255, 1), rgba(132, 255, 105, 1) ),
     center no-repeat;
   background-color: #fbfbfb;
   padding-bottom: 4rem;
 }
 
 #projects {
-  background: linear-gradient(rgba(132, 255, 105, 1), rgba(105, 205, 255, 1)),
+  background: linear-gradient(rgba(105, 205, 255, 1), rgba(132, 255, 105, 1) ),
     center no-repeat;
   padding-top: 2rem;
   background-color: #fbfbfb;
@@ -1294,6 +1294,13 @@ input[type="checkbox"] {
 /****************************/
 .slider {
   background: linear-gradient(rgba(105, 205, 255, 1), rgba(132, 255, 105, 1)),
+    center no-repeat;
+  padding-top: 2rem;
+  background-color: #fbfbfb;
+}
+
+.slider-green {
+  background: linear-gradient(rgba(132, 255, 105, 1), rgba(105, 205, 255, 1) ),
     center no-repeat;
   padding-top: 2rem;
   background-color: #fbfbfb;
@@ -1792,7 +1799,7 @@ input[type="checkbox"] {
 /*     16. Contact     */
 /***********************/
 .form-2 {
-  background: linear-gradient(rgba(105, 205, 255, 1), rgba(132, 255, 105, 1)),
+  background: linear-gradient(rgba(132, 255, 105, 1), rgba(105, 205, 255, 1)),
     center no-repeat;
 
   padding-top: 6.625rem;
