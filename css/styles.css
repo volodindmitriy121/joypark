@@ -12,6 +12,19 @@
   display: flex;
 }
 
+.gallery-slider .swiper-slide .img-fluid {
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider--stock .swiper-slide {
+  height: auto;
+}
+
+.slider--stock .swiper-slide img {
+  object-fit: cover;
+}
+
 .navbar-nav {
   display: flex;
   align-items: center;
@@ -1313,9 +1326,9 @@ input[type="checkbox"] {
 }
 
 .price-container .swiper-slide img {
-    max-width: 100%;
-    max-height: 100%;
-    display: block; /* remove extra space below image */
+  max-width: 100%;
+  max-height: 100%;
+  display: block; /* remove extra space below image */
 }
 
 .offer-container .swiper-slide img {
